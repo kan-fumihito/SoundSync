@@ -51,5 +51,5 @@
 
 
 ## サウンドスーツデバイスについて
-本家サウンドスーツのデバイスとは互換性はありません。[Arduino Uno](http://akizukidenshi.com/catalog/g/gM-07385/)にsoundsync.inoのプログラムを書き込んだ上で、ボタン配線を行ってください。
+本家サウンドスーツのデバイスとは互換性はありません。[Arduino Uno](http://akizukidenshi.com/catalog/g/gM-07385/)に[soundsync.ino](https://github.com/kan-fumihito/SoundSync/blob/master/arduino/soundsync.ino)のプログラムを書き込んだ上で、ボタン配線を行ってください。
 ArduinoのGPIOは、デジタル2～13とアナログ0のピンを使用してください。
