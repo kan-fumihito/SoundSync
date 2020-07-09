@@ -3,6 +3,7 @@
 + 知り合いの依頼により製作 - [GooglePlay](https://play.google.com/store/apps/details?id=com.test.kan.soundsync&hl=ja)
 
 ## 使い方
+![screen](https://github.com/kan-fumihito/SoundSync/blob/master/screen.png)
 
 + オーディオファイルの設定(A～J,SET SLOTボタン)
   - SE:mp3以外の拡張子のオーディオファイル
