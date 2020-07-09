@@ -1,5 +1,5 @@
 # SoundSync
-+ マジック用品[-サウンドスーツ-](https://soundsuit.com/?pid=89316951)のAndroid版アプリ(非公認)
++ マジック用品[-サウンドスーツ-](https://soundsuit.com/)のAndroid版アプリ(非公認)
 + 知り合いの依頼により製作 - [GooglePlay](https://play.google.com/store/apps/details?id=com.test.kan.soundsync&hl=ja)
 
 ## 使い方
