@@ -66,15 +66,15 @@ void interrupt_mask(void)
 
 void tc0_init(void)
 {
-    TCCR0 = 0x00; //タイマ/カウンタ0標準動作，OC0切断，停止
-    TIMSK = 0x00; //タイマ/カウンタ0割込みマスク
+    TCCR0 = 0x00;
+    TIMSK = 0x00;
 }
 
 void tc0_start(void)
 {
-    CNT0 = 0x00;  //タイマ/カウンタ0クリア
-    TCCR0 = 0x06; //タイマ/カウンタ0標準動作，OC0切断，256分周
-    TIMSK = 0x01; //タイマ/カウンタ0オーバーフロー割込みイネーブル
+    CNT0 = 0x00;
+    TCCR0 = 0x06;
+    TIMSK = 0x01;
 }
 
 ISR(PCINT0_vect)
