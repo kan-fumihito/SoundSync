@@ -51,21 +51,22 @@ void loop() {
     goto A;
   }
   if(digitalRead(11)){
-    sw='k';
-    goto A;
-  }
-  if(digitalRead(12)){
-    sw='l';
-    goto A;
-  }
-  if(digitalRead(13)){
-    sw='m';
-    goto A;
-  }
-  if(digitalRead(14)){
     sw='j';
     goto A;
   }
+  if(digitalRead(12)){
+    sw='k';
+    goto A;
+  }
+  if(digitalRead(13)){
+    sw='l';
+    goto A;
+  }
+  if(digitalRead(14)){
+    sw='m';
+    goto A;
+  }
+  
 
   A:
   
